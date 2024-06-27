@@ -9,7 +9,7 @@ const MiddleFlower: React.FC = () => {
         alt="middle-flower"
         width={400}
         height={100}
-        className="w-[400px]"
+        className="w-[250px] lg:w-[400px]"
       />
     </div>
   )

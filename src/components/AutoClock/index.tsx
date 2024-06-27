@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Calendar from "../Calendar";
 
 const AutoClock: React.FC = () => {
   const [days, setDays] = useState<string>("");
@@ -35,58 +36,61 @@ const AutoClock: React.FC = () => {
   }, [])
 
   return (
-    <div className="max-w-5xl mx-auto py-20 text-black flex flex-col gap-12">
+    <div className="max-w-5xl mx-auto pb-10 lg:pb-20 text-black flex flex-col gap-8">
       <div className="text-center flex flex-col gap-5">
-        <div className="uppercase text-center text-4xl font-bold">
-          Bạn sẽ tham gia cùng chúng mình chứ ?
+        <div className="uppercase text-center text-2xl lg:text-4xl font-bold">
+          Save the date
         </div>
         <div>
-          Tiệc cưới của chúng sẽ diễn ra vào lúc <span className="text-2xl font-bold">18:00</span> ngày  <span className="text-2xl font-bold">13</span> tháng <span className="text-2xl font-bold">07</span> năm <span className="text-2xl font-bold">2024</span> tại nhà hàng Riverside Palace.
+          Vào lúc <span className="text-xl lg:text-2xl font-bold">18:00 - Thứ Bảy</span>
           <br />
-          Chúng mình hi vọng có được sự góp mặt của bạn trọng ngày vui của hai chúng mình.
+          Ngày  <span className="text-xl lg:text-2xl font-bold">13</span> tháng <span className="text-2xl font-bold">07</span> năm <span className="text-2xl font-bold">2024</span>
         </div>
       </div>
-      <div className="border-4 border-neutral-900 px-10 py-10">
-        <div className="grid grid-cols-4">
-          {days && (
+      <Calendar />
+      <div className="px-5 lg:px-0">
+        <div className="border-4 border-neutral-900 bg-gradient-to-r from-blue to-pink px-10 py-5">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-0">
+            {days && (
+              <div className="flex flex-col items-center gap-5">
+                <div className="text-4xl font-bold">
+                  {days}
+                </div>
+                <div className="text-2xl uppercase">
+                  Ngày
+                </div>
+              </div>
+            )}
             <div className="flex flex-col items-center gap-5">
               <div className="text-4xl font-bold">
-                {days}
+                {hours}
               </div>
               <div className="text-2xl uppercase">
-                Days
+                Giờ
               </div>
             </div>
-          )}
-          <div className="flex flex-col items-center gap-5">
-            <div className="text-4xl font-bold">
-              {hours}
+            <div className="flex flex-col items-center gap-5">
+              <div className="text-4xl font-bold">
+                {minutes}
+              </div>
+              <div className="text-2xl uppercase">
+                Phút
+              </div>
             </div>
-            <div className="text-2xl uppercase">
-              Hours
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-5">
-            <div className="text-4xl font-bold">
-              {minutes}
-            </div>
-            <div className="text-2xl uppercase">
-              Minutes
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-5">
-            <div className="text-4xl font-bold">
-              {seconds}
-            </div>
-            <div className="text-2xl uppercase">
-              Seconds
+            <div className="flex flex-col items-center gap-5">
+              <div className="text-4xl font-bold">
+                {seconds}
+              </div>
+              <div className="text-2xl uppercase">
+                Giây
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <button className="border border-black bg-black text-white w-fit py-3 px-5 rounded-lg mx-auto hover:bg-transparent hover:text-black transition-all duration-300">
+      {/* <button className="border border-black bg-black text-white w-fit py-3 px-5 rounded-lg mx-auto hover:bg-transparent hover:text-black transition-all duration-300">
         Tham gia nhé
-      </button>
+      </button> */}
     </div>
   )
 }

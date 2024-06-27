@@ -34,9 +34,21 @@ import PhotoBookImage33 from "@/assets/images/DUCK9070.jpg";
 import PhotoBookImage34 from "@/assets/images/DUCK9135.jpg";
 import PhotoBookImage35 from "@/assets/images/DUCK9155.jpg";
 import PhotoBookImage36 from "@/assets/images/DUCK9188.jpg";
+import PhotoBookImage37 from "@/assets/images/DUCK9223.jpg";
+import PhotoBookImage38 from "@/assets/images/DUCK9410.jpg";
+import PhotoBookImage39 from "@/assets/images/DUCK9465.jpg";
+import PhotoBookImage40 from "@/assets/images/DUCK9380.jpg";
 
 export const ImageListSwiper = [
   {id: "image-swiper-0", url: PhotoBookImage19},
   {id: "image-swiper-1", url: PhotoBookImage36},
-  {id: "image-swiper-2", url: PhotoBookImage16},
+]
+
+export const PhotobookList = [
+  {id: "photo-book-0", url: PhotoBookImage16 ,position: ""},
+  {id: "photo-book-1", url: PhotoBookImage34, position: ""},
+  {id: "photo-book-2", url: PhotoBookImage7, position: ""},
+  {id: "photo-book-", url: PhotoBookImage21, position: ""},
+  {id: "photo-book-4", url: PhotoBookImage9, position: ""},
+  {id: "photo-book-5", url: PhotoBookImage10, position: ""},
 ]
