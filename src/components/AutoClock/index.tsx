@@ -36,7 +36,7 @@ const AutoClock: React.FC = () => {
   }, [])
 
   return (
-    <div className="max-w-5xl mx-auto pb-10 lg:pb-20 text-black flex flex-col gap-8">
+    <div className="max-w-5xl mx-auto text-black flex flex-col gap-8">
       <div className="text-center flex flex-col gap-5">
         <div className="uppercase text-center text-2xl lg:text-4xl font-bold">
           Save the date

@@ -42,7 +42,7 @@ const ImageSlider: React.FC = () => {
           )
         })}
         <div className="swiper-pagination"></div>
-        <div className="absolute inset-0 z-10 flex items-center justify-center text-3xl lg:text-5xl bg-black/30">
+        <div className="absolute inset-0 z-10 flex items-center justify-center text-3xl lg:text-5xl bg-black/30 text-white">
           Huy & Thủy
         </div>
       </Swiper>

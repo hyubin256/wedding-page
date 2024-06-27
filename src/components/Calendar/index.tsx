@@ -31,7 +31,7 @@ const Calendar = () => {
 
   const dayNames = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
   return (
-    <div className="text-center max-w-[600px] mx-auto text-black border-[4px] py-3 lg:py-5 px-5 lg:px-20 border-black bg-blue">
+    <div className="text-center max-w-[600px] mx-auto text-black border-[4px] py-3 lg:py-5 px-5 lg:px-20 border-black">
       <h2 className="text-xl font-bold mb-4">Tháng 7 / 2024</h2>
       <div className="grid grid-cols-7 gap-1">
         {dayNames.map((dayName) => (

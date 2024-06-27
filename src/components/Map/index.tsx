@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const RestaurantMap: React.FC = () => {
   return (
-    <div className="text-black py-10 lg:py-20">
+    <div className="text-black">
       <div className="w-full max-w-7xl mx-auto flex flex-col items-center gap-5 px-5 lg:px-0">
         <div className="uppercase text-center text-2xl lg:text-4xl font-bold">
           Địa điểm

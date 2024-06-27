@@ -7,6 +7,11 @@ import { useRouter } from "next/navigation";
 import PhotoBookImage11 from '@/assets/images/DUCK8576.jpg';
 import Header from "@/components/Header";
 import RestaurantMap from "@/components/Map";
+import ImageSlider from "@/components/ImageSlider";
+import HeadIntroduce from "@/components/HeadIntroduce";
+import Calendar from "@/components/Calendar";
+import MiddleFlower from "@/components/MiddlleFlower";
+import AutoClock from "@/components/AutoClock";
 export default function Bride({ params }: { params: { slug: string } }) {
   const slugOfPage = params?.slug;
   const findSlug = BrideList.find((item) => item.slug === slugOfPage)
@@ -14,6 +19,8 @@ export default function Bride({ params }: { params: { slug: string } }) {
   return (
     <main className="min-h-screen bg-white">
       <Header />
+      <ImageSlider />
+      <HeadIntroduce />
       {
         findSlug && (
           <div className="text-black px-3 lg:px-0">
@@ -34,7 +41,7 @@ export default function Bride({ params }: { params: { slug: string } }) {
                 </div>
                 <div className="mb-8 text-center">
                   Đến dự buổi tiệc chung vui <br />
-                  Cùng gia đình chung tôi tại
+                  Cùng gia đình chúng tôi tại
                 </div>
                 <div className="mb-8 text-center">
                   <div className="font-bold text-2xl">Nhà Hàng Riverside Palace</div>
@@ -54,7 +61,13 @@ export default function Bride({ params }: { params: { slug: string } }) {
           </div>
         )
       }
+      <MiddleFlower />
+      <AutoClock />
+      <MiddleFlower />
+      <Calendar />
+      <MiddleFlower />
       <RestaurantMap />
+      <MiddleFlower />
       <div className="py-8 bg-black text-center">
         Cảm ơn vì đã chia sẻ khoảnh khắc hạnh phúc này cùng chúng tôi
       </div>
