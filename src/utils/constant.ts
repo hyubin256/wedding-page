@@ -48,7 +48,65 @@ export const PhotobookList = [
   {id: "photo-book-0", url: PhotoBookImage16 ,position: ""},
   {id: "photo-book-1", url: PhotoBookImage34, position: ""},
   {id: "photo-book-2", url: PhotoBookImage7, position: ""},
-  {id: "photo-book-", url: PhotoBookImage21, position: ""},
-  {id: "photo-book-4", url: PhotoBookImage9, position: ""},
-  {id: "photo-book-5", url: PhotoBookImage10, position: ""},
+  // {id: "photo-book-3", url: PhotoBookImage21, position: ""},
+  // {id: "photo-book-4", url: PhotoBookImage9, position: ""},
+  // {id: "photo-book-5", url: PhotoBookImage10, position: ""},
+]
+
+export const BrideList = [
+  {
+    id: "bride-xay",
+    slug: "bride-xay",
+    name: "Em Xây",
+  },
+  {
+    id: "bride-ut-diem",
+    slug:"bride-ut-diem",
+    name: "Út Diễm",
+  },
+  {
+    id: "bride-chi-vy",
+    slug: "bride-chi-vy",
+    name: "Chị Vy",
+  },
+  {
+    id: "bride-anh-man",
+    slug: "bride-anh-man",
+    name: "Anh Mẫn",
+  },
+  {
+    id: "bride-vo-chong-chi-thao",
+    slug: "bride-vo-chong-chi-thao",
+    name: "Vợ Chồng Chị Thảo",
+  },
+  {
+    id: "bride-chi-lai",
+    slug: "bride-chi-lai",
+    name: "Chị Lai",
+  },
+  {
+    id: "bride-anh-nghia",
+    slug: "bride-anh-nghia",
+    name: "Anh Nghĩa",
+  },
+  {
+    id: "bride-anh-lil",
+    slug: "bride-anh-lil",
+    name: "Gia Đình Anh Lil",
+  },
+  {
+    id: "bride-anh-nguyen-anh",
+    slug: "bride-anh-nguyen-anh",
+    name: "Gia Đình Anh Nguyên Anh",
+  },
+  {
+    id: "bride-anh-xuan-tuan",
+    slug: "bride-anh-xuan-tuan",
+    name: "Gia Đình Anh Xuân Tuấn",
+  },
+  {
+    id: "bride-anh-tan",
+    slug: "bride-anh-tan",
+    name: "Anh Tần",
+  },
 ]

@@ -81,7 +81,7 @@ const Photobook: React.FC = () => {
           })
         }
       </div>
-      <div>
+      {/* <div>
         <iframe
           className="w-full h-[350px] lg:h-[500px]"
           width="560"
@@ -94,7 +94,7 @@ const Photobook: React.FC = () => {
           allowFullScreen
         >
         </iframe>
-      </div>
+      </div> */}
     </div>
   )
 }
