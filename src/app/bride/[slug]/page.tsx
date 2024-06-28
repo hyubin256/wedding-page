@@ -64,8 +64,8 @@ export default function Bride({ params }: { params: { slug: string } }) {
       <MiddleFlower />
       <AutoClock />
       <MiddleFlower />
-      <Calendar />
-      <MiddleFlower />
+      {/* <Calendar />
+      <MiddleFlower /> */}
       <RestaurantMap />
       <MiddleFlower />
       <div className="py-8 bg-black text-center">
