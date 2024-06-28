@@ -44,7 +44,7 @@ const Calendar = () => {
             {week.map((day, idx) => (
               <div
                 key={idx}
-                className={`p-2 ${day ? '' : ''} ${day === 13 ? 'font-bold rounded-full bg-pink' : ''
+                className={`p-2 ${day ? '' : ''} ${day === 13 ? 'font-bold rounded-full bg-pink animation-opacity' : ''
                   }`}
               >
                 {day}

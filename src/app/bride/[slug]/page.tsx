@@ -4,7 +4,7 @@ import { BrideList } from "@/utils/constant";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 // import CakeIcon from "@/assets/images/cake-icon.png"
-import PhotoBookImage11 from '@/assets/images/DUCK8576.jpg';
+import PhotoBookImage11 from '@/assets/images/DUCK8742.jpg';
 import Header from "@/components/Header";
 import RestaurantMap from "@/components/Map";
 import ImageSlider from "@/components/ImageSlider";
