@@ -40,7 +40,7 @@ import PhotoBookImage39 from "@/assets/images/DUCK9465.jpg";
 import PhotoBookImage40 from "@/assets/images/DUCK9380.jpg";
 
 export const ImageListSwiper = [
-  {id: "image-swiper-0", url: PhotoBookImage19},
+  {id: "image-swiper-0", url: PhotoBookImage20},
   {id: "image-swiper-1", url: PhotoBookImage36},
 ]
 
@@ -108,6 +108,26 @@ export const BrideList = [
     id: "bride-anh-tan",
     slug: "bride-anh-tan",
     name: "Anh Tần",
+  },
+  {
+    id: "chi-duong",
+    slug: "chi-duong",
+    name: "Gia đình chị Dương",
+  },
+  {
+    id: "chi-tran",
+    slug: "chi-tran",
+    name: "Chị Trân + ♥",
+  },
+  {
+    id: "em-ba",
+    slug: "em-ba",
+    name: "em Thanh và em Hui",
+  },
+  {
+    id: "gia-dinh",
+    slug: "gia-dinh",
+    name: "Gia Đình",
   },
 ]
 
