@@ -146,7 +146,7 @@ export const GroomList = [
   {
     id: "groom-chi-dung",
     slug: "groom-chi-dung",
-    name: "Chị Dung",
+    name: "Anh Chị Dung",
   },
   {
     id: "dieu-huy",
