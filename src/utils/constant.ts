@@ -167,5 +167,25 @@ export const GroomList = [
     id: "gia-dinh-em-hoang-anh",
     slug: "gia-dinh-em-hoang-anh",
     name: "Gia đình em Hoàng Anh",
-  }
+  },
+  {
+    id: "em-nhut",
+    slug: "em-nhut",
+    name: "em Nhựt",
+  },
+  {
+    id: "anh-vinh",
+    slug: "anh-vinh",
+    name: "Vợ chồng anh Vĩnh",
+  },
+  {
+    id: "anh-thinh",
+    slug: "anh-thinh",
+    name: "Vợ chồng anh Thịnh",
+  },
+  {
+    id: "anh-thien",
+    slug: "anh-thien",
+    name: "Vợ chồng anh Thiện",
+  },
 ]
