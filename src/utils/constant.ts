@@ -38,7 +38,7 @@ import PhotoBookImage37 from "@/assets/images/DUCK9223.jpg";
 import PhotoBookImage38 from "@/assets/images/DUCK9410.jpg";
 import PhotoBookImage39 from "@/assets/images/DUCK9465.jpg";
 import PhotoBookImage40 from "@/assets/images/DUCK9380.jpg";
-import PhotoBookImage41 from "@/assets/images/DUCK8861.jpg";
+import PhotoBookImage41 from "../assets/images/DUCK8861.jpg";
 
 export const ImageListSwiper = [
   {id: "image-swiper-0", url: PhotoBookImage41},
