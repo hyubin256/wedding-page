@@ -171,7 +171,7 @@ export const GroomList = [
   {
     id: "em-nhut",
     slug: "em-nhut",
-    name: "em Nhựt",
+    name: "em Nhựt + ♥",
   },
   {
     id: "anh-vinh",
@@ -187,5 +187,20 @@ export const GroomList = [
     id: "anh-thien",
     slug: "anh-thien",
     name: "Gia đình anh Thiện",
+  },
+  {
+    id: "anh-minh",
+    slug: "anh-minh",
+    name: "anh Minh + ♥",
+  },
+  {
+    id: "chi-nhung",
+    slug: "chi-nhung",
+    name: "Gia đình chị Nhung",
+  },
+  {
+    id: "chi-thuy",
+    slug: "chi-thuy",
+    name: "Gia đình chị Thủy",
   },
 ]
