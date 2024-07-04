@@ -140,6 +140,21 @@ export const BrideList = [
     slug: "em-doanh",
     name: "Em Doanh + ♥",
   },
+  {
+    id: "do-thanh-em-nhi",
+    slug: "do-thanh-em-nhi",
+    name: "Em Nhi + ♥",
+  },
+  {
+    id: "do-thanh-em-phuong",
+    slug: "do-thanh-em-phuong",
+    name: "Em Phương + ♥",
+  },
+  {
+    id: "do-thanh-em-thao",
+    slug: "do-thanh-em-thao",
+    name: "Em Thảo + ♥",
+  },
 ]
 
 export const GroomList = [
