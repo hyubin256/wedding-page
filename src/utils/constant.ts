@@ -218,4 +218,19 @@ export const GroomList = [
     slug: "chi-thuy",
     name: "Gia đình chị Thủy",
   },
+  {
+    id: "nguyen-hien-ban-phu",
+    slug: "nguyen-hien-ban-phu",
+    name: "Bạn Phú + ♥",
+  },
+  {
+    id: "itc-chi-anna",
+    slug: "itc-chi-anna",
+    name: "Chị Anna + ♥",
+  },
+  {
+    id: "nguyen-hien-ban-phong",
+    slug: "nguyen-hien-ban-phong",
+    name: "bạn Phong + ♥",
+  },
 ]
